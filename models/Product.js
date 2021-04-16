@@ -17,11 +17,11 @@ Product.init(
     },
     product_name: {
       type: DataTypes.STRING,
-      allownNull: false,
+      allowNull: false
     },
     price: {
       type: DataTypes.DECIMAL,
-      allownull: false,
+      allowNull: false,
       validate: {
         isDecimal: true
       }
@@ -36,7 +36,6 @@ Product.init(
     },
     category_id: {
       type: DataTypes.INTEGER,
-      allowNull: false,
       references: {
         model: 'category',
         key: 'id'

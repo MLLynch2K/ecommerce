@@ -1,7 +1,7 @@
 {
   "name": "module-13-challenge-orm",
   "version": "1.0.0",
-  "description": "",
+  "description": "## Description    A back end for an ecommerce site using Express.js API and configuing with Sequelize to interact with a MySQL database. The application will organzie products by category with product tags.",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/MLLynch2K/ecommerce"
+    "url": "git@work.github.com/E-commerce-back-end.git"
   },
   "keywords": [],
   "author": "",
@@ -23,6 +23,6 @@
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "mysql2": "^2.1.0",
-    "sequelize": "^5.22.3"
+    "sequelize": "^5.21.7"
   }
 }

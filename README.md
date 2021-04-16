@@ -1,4 +1,4 @@
-# ecommerce
+# E-Commerce
 
 ## Description   
 A back end for an ecommerce site using Express.js API and configuing with Sequelize to interact with a MySQL database. The application will organzie products by category with product tags.
